@@ -1,0 +1,26 @@
+[
+    {
+        "title":"home",
+        "link":""
+    },
+    {
+        "title":"work experience",
+        "link":"#work-experience"
+    },
+    {
+        "title":"services",
+        "link":"#serices"
+    },
+    {
+        "title":"projects",
+        "link":"#projects"
+    },
+    {
+        "title":"vlogs",
+        "link":"#vlogs"
+    },
+    {
+        "title":"contact me",
+        "link":""
+    }
+]
