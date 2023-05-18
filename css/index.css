@@ -16,7 +16,7 @@ body{
 header{
     width:100%;
     display:flex;
-    background-color: khaki;
+    background-color: gold;
     padding:1rem;
     position:sticky;
     top:0;
@@ -78,13 +78,13 @@ header{
     width:15rem;
     height:15rem;
     border-radius:50%;
-    border:0.25rem solid khaki;
+    border:0.25rem solid gold;
 }
 .my-image-container a{
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 .my-image-container > a:hover{
-    transform: translate(5px,12px);
+    transform: translate(0px,15px);
 }
 .my-intro-container{
     width:60%;
@@ -97,7 +97,7 @@ header{
 }
 .my-intro-container > p:first-child{
     font-size: 1.5rem;
-    color:khaki;
+    color:gold;
 }
 .my-intro-container > p:nth-child(2){
     font-size:5rem;
@@ -105,11 +105,11 @@ header{
 }
 .my-intro-container > p:last-of-type{
     font-size:2rem;
-    color:khaki;
+    color:gold;
 }
 
 /* ABOUT SECTION */
-.about-container{
+#about-container{
     display:flex;
     flex-direction:column;
     width:100%;
@@ -117,14 +117,14 @@ header{
     align-items:center;
     justify-content:center;
 }
-.about-container div:first-child{
+#about-container div:first-child{
     display:flex;
     flex-direction:column;
     width:80%;
     align-items:center;
     justify-content:center;
 }
-.about-container div:first-child > p{
+#about-container div:first-child > p{
     font-size: x-large;
     margin-bottom: 0.5rem;
 }
@@ -135,12 +135,13 @@ header{
     justify-content:center;
 }
 .technologies-container > span{
-    border:1px solid khaki;
-    color: khaki;
+    border:1px solid gold;
+    color: gold;
     border-radius: 0.25rem;
     margin-right: 0.25rem;
     font-size: large; 
     transition: transform 0.2s;
+    padding: 0.25rem;
 }
 .technologies-container > span:hover{
     transform: translate(0px, -5px);
