@@ -20,7 +20,7 @@ function displayData(data){
     //display menu list here
     for(let i=0;i<data.length;i++){
         MenuList.insertAdjacentHTML('beforeend',`
-            <a href='${data[i].link}'>${data[i].title}</a>
+            <a href='${data[i].link}'>${data[i].title.toUpperCase()}</a>
         `)
     }
 }
