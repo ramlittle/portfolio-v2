@@ -1,20 +1,19 @@
 const MenuList = document.querySelector('.menu-list-container');
-
+const Header = document.querySelector('header');
 const url = '../data/menu.json';
-let menuList=[];
 
-function fetchData(){
+function fetchMenu(){
     fetch(url)
     .then(res=>res.json())
     .then(data=>{
-       displayData(data);
+       displayMenu(data);
     })
 }
 
-function displayData(data){
+function displayMenu(data){
     if(!data.length){
         return Header.insertAdjacentHTML('beforeend',`
-            <a href = ''>No Menu List Found</a>
+            <span>No Menu List Found</span>
         `)
     }
     //display menu list here
@@ -26,7 +25,7 @@ function displayData(data){
 }
 
 //Obtain Menu and Display
-fetchData();
+fetchMenu();
 
 
 
