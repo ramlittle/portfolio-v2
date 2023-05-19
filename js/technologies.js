@@ -17,7 +17,7 @@ function displayTechnologies(data){
     //display menu list here
     for(let i=0;i<data.length;i++){
         TechnologiesList.insertAdjacentHTML('beforeend',`
-            <span>${data[i].title}</span>
+            <h6>${data[i].title}</h6>
         `)
     }
 }

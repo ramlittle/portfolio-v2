@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ramlittle message</title>
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/tZR53gg/portfolioicon.jpg">
+    <link rel='stylesheet' type='text/css' href='../css/message.css'>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col align-self-center">
-          <h1 class="text-center">Email - JavaScript Contact Form</h1>
+          <h1 class="text-center">Contact Ram</h1>
           <!-- contact form -->
           <form id="myForm">
             <!-- name -->
@@ -23,6 +24,7 @@
                 class="form-control"
                 id="name"
                 placeholder="enter your name"
+                
               />
             </div>
 
@@ -35,6 +37,7 @@
                 class="form-control"
                 id="email"
                 placeholder="enter your email"
+                
               />
             </div>
 
@@ -47,17 +50,20 @@
                 class="form-control"
                 id="subject"
                 placeholder="enter email subject"
+                
               />
             </div>
 
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+              <textarea id="message" name="message" rows="5" ></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit">Submit</button>
           </form>
         </div>
+        <span class='contact-error-message'>You tried to message Ram, but some fields are empty</span>
+        <span class='contact-success-message'>Thank you for sending a message. Ram, will get in touch with you soon!</span>
       </div>
     </div>
 </body>
