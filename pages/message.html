@@ -4,67 +4,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ramlittle message</title>
+    <title>message ramlittle</title>
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/tZR53gg/portfolioicon.jpg">
     <link rel='stylesheet' type='text/css' href='../css/message.css'>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col align-self-center">
-          <h1 class="text-center">Contact Ram</h1>
-          <!-- contact form -->
-          <form id="myForm">
-            <!-- name -->
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input
-                type="name"
-                name="name"
-                class="form-control"
-                id="name"
-                placeholder="enter your name"
-                
-              />
-            </div>
+    <header>
+      <h1>Contact Form</h1>
+    </header>
+    <div class="contact-container">
+      
+      <section>
+        <!-- contact form -->
+        <form id="myForm">
+          <!-- name -->
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="name"
+              name="name"
+              class="form-control"
+              id="name"
+              placeholder="enter your name"
+            />
+          </div>
 
-            <!-- email -->
-            <div class="form-group">
-              <label for="email">Email address</label>
-              <input
-                type="email"
-                name="email"
-                class="form-control"
-                id="email"
-                placeholder="enter your email"
-                
-              />
-            </div>
+          <!-- email -->
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="email"
+              placeholder="example@domain.com"  
+            />
+          </div>
 
-            <!-- subject -->
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input
-                type="text"
-                name="subject"
-                class="form-control"
-                id="subject"
-                placeholder="enter email subject"
-                
-              />
-            </div>
+          <!-- subject -->
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              name="subject"
+              class="form-control"
+              id="subject"
+              placeholder="subject"
+            />
+          </div>
 
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" ></textarea>
-            </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder = 'enter a brief message here...'></textarea>
+          </div>
 
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <span class='contact-error-message'>You tried to message Ram, but some fields are empty</span>
-        <span class='contact-success-message'>Thank you for sending a message. Ram, will get in touch with you soon!</span>
-      </div>
+          <div class='button-group'>
+            <button class = 'link-button' type="submit">Submit</button>
+            <a class = 'link-button'href='../index.html'>Cancel</a>
+          </div>
+        </form>
+      </section>
+          
+      <section>
+        <span class='contact-error-message'>You tried to message me, but some fields were empty</span>
+        <span class='contact-sending-message'>sending...</span>
+        <span class='contact-success-message'>Thank you for messaging. I'll get in touch with you soon!</span>
+        <a id='return-link' class = 'link-button' href ='../index.html'>Return</a>
+        <span class='contact-fail-message'>Sorry, Server is down. Please try again later</span>
+      </section> 
     </div>
 </body>
 

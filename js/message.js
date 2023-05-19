@@ -17,9 +17,14 @@ document
     const ContactErrorMessage = document.querySelector('.contact-error-message');
     const MyForm = document.querySelector('#myForm');
     const ContactSuccessMessage = document.querySelector('.contact-success-message');
+    const ReturnLink = document.querySelector('#return-link');
+    const ContactFailMessage =document.querySelector('.contact-fail-message');
+    const ContactSendingMessage = document.querySelector('.contact-sending-message');
 
+    ContactSendingMessage.style.display = 'block';
     //check if fields are empty with !!!
     if (!!!Name.value || !!!Email.value || !!!Subject.value || !!!Message.value){
+      ContactSendingMessage.style.display='none';
       ContactErrorMessage.style.display = 'block';
       return console.log('User tried to message Ram, but some fields are empty')
     }
@@ -33,11 +38,14 @@ document
       (response) => {
       console.log("SUCCESS!", response.status, response.text);
       MyForm.style.display='none';
+      ContactSendingMessage.style.display='none';
       ContactSuccessMessage.style.display='block';
+      ReturnLink.style.display='block';
       },
       (error) => {
       console.log("FAILED...", error);
-      alert("FAILED...Server is Down, Please try again later.", error);
+      ContactSendingMessage.style.display='none';
+      ContactFailMessage.style.display ='block';
       }
 );
 });
