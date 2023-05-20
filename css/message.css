@@ -82,7 +82,6 @@ form{
 .contact-error-message{
     display:none;
     color: orange;
-    border: 1px solid khaki;
     padding: 0.25rem;
     text-align: center;
     width: 60%;
@@ -91,7 +90,6 @@ form{
 .contact-fail-message{
     display:none;
     color: red;
-    border: 1px solid khaki;
     padding: 0.25rem;
     text-align: center;
     width: 60%;
@@ -100,7 +98,6 @@ form{
 .contact-success-message{
     display:none;
     color: greenyellow;
-    border: 1px solid khaki;
     padding:0.25rem;
     text-align: center;
     width: 60%;
@@ -112,7 +109,6 @@ form{
 .contact-sending-message{
     display:none;
     color: khaki;
-    border: 1px solid khaki;
     padding:0.25rem;
     text-align: center;
     width: 60%;
