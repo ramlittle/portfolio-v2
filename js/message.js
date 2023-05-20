@@ -20,6 +20,8 @@ document
     const ReturnLink = document.querySelector('#return-link');
     const ContactFailMessage =document.querySelector('.contact-fail-message');
     const ContactSendingMessage = document.querySelector('.contact-sending-message');
+    const VideoFrameContainer = document.querySelector('.video-frame-container');
+    const ContactSampleVideoMessage =document.querySelector('.contact-sample-video-message');
 
     ContactSendingMessage.style.display = 'block';
     //check if fields are empty with !!!
@@ -41,6 +43,8 @@ document
       ContactSendingMessage.style.display='none';
       ContactSuccessMessage.style.display='block';
       ReturnLink.style.display='block';
+      VideoFrameContainer.style.display='flex';
+      ContactSampleVideoMessage.style.display='block';
       },
       (error) => {
       console.log("FAILED...", error);

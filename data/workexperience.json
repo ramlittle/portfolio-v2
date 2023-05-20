@@ -1,0 +1,50 @@
+[
+    {
+     "job": "Frontend Software Engineer",
+     "company": "D.W. Morgan",
+     "description": "Handled Freight Payment Frontend Engineering Design, Bug Fixes., Roles and permissions, Documented Issues, diagnosis and resolution.",
+     "startDate": "February 13, 2023",
+     "endDate": "May 19, 2023",
+     "employmentStatus": "Internship"
+    },
+    {
+     "job": "WordPress Web Designer",
+     "company": "Coastal Real Estate Academy",
+     "description": "Creates, updates and designs web page. Updating social media posts together with the website.\nManages wordpress updates,plugins and form data",
+     "startDate": "August 16, 2021",
+     "endDate": "January 01, 2023",
+     "employmentStatus": "Freelance"
+    },
+    {
+     "job": "CRM and Dialer Consultant",
+     "company": "Taokymbiz",
+     "description": "Plans, directs, coordinates with IT Team CRM and Dialer Systems such Nextiva, Ring Central. Manages GoDaddy Cpanel email and DNS",
+     "startDate": "August 30, 2020",
+     "endDate": "December 30, 2022",
+     "employmentStatus": "On Call"
+    },
+    {
+     "job": "IT Operations Supervisor",
+     "company": "Noble Trends Unbound, Inc.",
+     "description": "Plans, directs, and oversees the operations of the assigned department\nLeads the work of IT Support, assigning them to various roles depending on their capability\nLook into new projects offered by clients that may help the organization grow.\nCoordinating escalated IT Issues such tickets or billing.\nWorks closely with other department heads",
+     "startDate": "January 1, 2020",
+     "endDate": "Present",
+     "employmentStatus": "Regular"
+    },
+    {
+     "job": "IT Support",
+     "company": "Noble Trends Unbound, Inc.",
+     "description": "Managed workstations, Linux and Windows Servers. \nUser Account Creation. System Database Administration and\nNetwork Administration.\nManaged Company website and Hostgator Cpanel",
+     "startDate": "April 1, 2013",
+     "endDate": "December 30, 2019",
+     "employmentStatus": "Regular"
+    },
+    {
+     "job": "General Office Student Assistant",
+     "company": "University of Baguio",
+     "description": "Released and Received Physics equipment to users.\nMaintain\/Check equipment Inventory. Handled Front Line Secretarial Office Work and Assistance or accommodation\/ Complaint Desk clerk.\nReceives and\/or Distributes incoming and\/or outgoing documents.\nMaintained Student’s\/ Faculty’s Files",
+     "startDate": "March 20, 2010",
+     "endDate": "December 10, 2012",
+     "employmentStatus": "Part-time"
+    }
+   ]

@@ -77,7 +77,15 @@ form{
 .link-button:hover{
     background-color: white;
 }
-
+.video-frame-container{
+    width:100%;
+    display:none;
+    justify-content:center;
+}
+.video-frame{
+    width:60%;
+    height:30rem;
+}
 /* ERROR MESSAGES */
 .contact-error-message{
     display:none;
@@ -97,7 +105,7 @@ form{
 }
 .contact-success-message{
     display:none;
-    color: greenyellow;
+    color: khaki;
     padding:0.25rem;
     text-align: center;
     width: 60%;
@@ -112,6 +120,14 @@ form{
     padding:0.25rem;
     text-align: center;
     width: 60%;
+    margin:auto;
+}
+.contact-sample-video-message{
+    display:none;
+    color:white;
+    padding:0.25rem;
+    text-align:center;
+    width:60%;
     margin:auto;
 }
 #return-link{

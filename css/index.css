@@ -20,6 +20,7 @@ header{
     padding:1rem;
     position:sticky;
     top:0;
+    z-index:1;
 }
 .menu-logo-container{
     display:flex;
@@ -145,4 +146,49 @@ header{
 }
 .technologies-container > h6:hover{
     transform: translate(0px, -5px);
+}
+
+/* WORK EXPERIENCE */
+#work-experience-container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+#work-experience-container h2{
+    color:khaki;
+    font-size:xxx-large;
+    text-align:center;
+}
+.work-experience-list{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:center;
+}
+.job{
+    margin:1rem;
+    width: calc(100%/4);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.job h4{
+    font-size:x-large;
+}
+.job h5{
+    font-size:x-large;
+    color:khaki;
+}
+.job p{
+    text-align:center;
+    font-size: x-large;
+    margin:0.25rem;
+}
+.job p:last-child{
+    color: khaki;
+    border:1px solid khaki;
+    padding: 0.25rem;
+    border-radius: 0.15rem;
 }
