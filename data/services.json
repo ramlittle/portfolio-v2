@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Web Design",
+        "description":"Able to create dynamic websites using plain HTML, CSS and Javascript. I am familiar with the use of Wordpress too!"
+    },
+    {
+        "name":"Web Development",
+        "description":"I can create web applications using Javascript, ReactJS, NodeJS, MongoDB with Restful APIs."
+    },
+    {
+        "name":"Search Engine Optimization",
+        "description":"I can help in optimizing your web page with use of on page SEO. Marketing off page your website? I can help with that as well!"
+    },
+    {
+        "name":"Network and Server Administration",
+        "description":"Managing company network and servers are part of my skill set. I can help in Configuring and troubleshooting them."
+    },
+    {
+        "name":"IT Support Function",
+        "description":"I am able to interact with end users regarding hardware or software issues. Technology and troubleshooting is part of my career!"
+    },
+    {
+        "name":"Photo and Video Editing",
+        "description":"If you have raw photos or videos for marketing, I can help in editing and posting!"
+    }
+]

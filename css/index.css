@@ -169,7 +169,7 @@ header{
 }
 .job{
     margin:1rem;
-    width: calc(100%/4);
+    width: calc(100%/3);
     display:flex;
     flex-direction: column;
     align-items:center;
