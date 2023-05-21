@@ -2,7 +2,7 @@
     transition: all 0.5s;
 }
 
-/* animation */
+/* animation on scroll*/
 .left-to-right{
     transform: translateX(-10rem);
     opacity: 0;
@@ -19,4 +19,34 @@
 .appear-on-scroll {
     transform: translateX(0);
     opacity: 1;
+}
+
+/* animation on page load */
+@keyframes slideInLeft{
+    0%{
+        transform:translateX(-100%);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+
+@keyframes slideInRight{
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform:translateX(0);
+    }
+
+}
+
+.my-image-container,
+.form-group label{
+    animation:0.25s ease-out 0s 1 slideInLeft;
+}
+.my-intro-container,
+.form-group input,
+.form-group textarea{
+    animation:0.25s ease-out 0s 1 slideInRight;
 }
