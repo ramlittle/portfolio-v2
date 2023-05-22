@@ -148,47 +148,57 @@ header{
     transform: translate(0px, -5px);
 }
 
-/* WORK EXPERIENCE */
-#work-experience-container{
+/* COMMON SECTION HEADERS */
+#work-experience-container,
+#services-container{
     display:flex;
     flex-direction:column;
     width:100%;
     justify-content:center;
     align-items:center;
 }
-#work-experience-container h2{
+
+
+#work-experience-container h2,
+#services-container h2{
     color:khaki;
     font-size:xxx-large;
     text-align:center;
 }
-.work-experience-list{
+
+/* WORK EXPERIENCE */
+.work-experience-list,
+.services-list{
     display:flex;
     flex-wrap:wrap;
     width:100%;
     justify-content:center;
 }
-.job{
+.jobs,
+.sercvices{
     margin:1rem;
     width: calc(100%/3);
     display:flex;
     flex-direction: column;
     align-items:center;
 }
-.job h4{
+.jobs h4{
     font-size:x-large;
 }
-.job h5{
+.jobs h5{
     font-size:x-large;
     color:khaki;
 }
-.job p{
+.jobs p{
     text-align:center;
     font-size: x-large;
     margin:0.25rem;
 }
-.job p:last-child{
+.jobs p:last-child{
     color: khaki;
     border:1px solid khaki;
     padding: 0.25rem;
     border-radius: 0.15rem;
 }
+
+/* SERVICES */

@@ -17,7 +17,7 @@ function displayWorkExperience(data){
     //display work exp list here
     for(let i=0;i<data.length;i++){
         WorkExperienceList.insertAdjacentHTML('beforeend',`
-            <div class='job'>
+            <div class='jobs'>
                 <h4>${data[i].job}</h4>
                 <h5>${data[i].company}</h5>
                 <p>${data[i].description}</p>
