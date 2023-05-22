@@ -164,6 +164,7 @@ header{
     color:khaki;
     font-size:xxx-large;
     text-align:center;
+    padding: 5rem;
 }
 
 /* WORK EXPERIENCE */
@@ -174,22 +175,25 @@ header{
     width:100%;
     justify-content:center;
 }
-.jobs,
-.sercvices{
+.jobs{
     margin:1rem;
     width: calc(100%/3);
     display:flex;
     flex-direction: column;
     align-items:center;
 }
-.jobs h4{
+.jobs h4,
+.services h4{
     font-size:x-large;
 }
-.jobs h5{
+.jobs h5,
+.services h4{
     font-size:x-large;
     color:khaki;
+    text-align:center;
 }
-.jobs p{
+.jobs p,
+.services p{
     text-align:center;
     font-size: x-large;
     margin:0.25rem;
@@ -202,3 +206,12 @@ header{
 }
 
 /* SERVICES */
+.services{
+    margin:1rem;
+    width: calc(100%/5);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height:auto;
+}
+
