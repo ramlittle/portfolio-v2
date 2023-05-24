@@ -169,7 +169,8 @@ header{
 
 /* WORK EXPERIENCE */
 .work-experience-list,
-.services-list{
+.services-list,
+.projects-list{
     display:flex;
     flex-wrap:wrap;
     width:100%;

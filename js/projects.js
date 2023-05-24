@@ -1,32 +1,34 @@
-const ServicesList = document.querySelector('.services-list');
+const ProjectsList = document.querySelector('.projects-list');
 
-function fetchServices(){
-    fetch('../data/services.json')
+function fetchProjects(){
+    fetch('../data/projects.json')
     .then(res=>res.json())
     .then(data=>{
-       displayServices(data);
+       displayProjects(data);
     })
 }
 
-function displayServices(data){
+function displayProjects(data){
     if(!data.length){
-        return ServicesList.insertAdjacentHTML('beforeend',`
-            <span>No Services Found</span>
+        return ProjectsList.insertAdjacentHTML('beforeend',`
+            <span>No Projects Found</span>
         `)
     }
     //display work exp list here
     for(let i=0;i<data.length;i++){
-        ServicesList.insertAdjacentHTML('beforeend',`
-            <div class='services'>
-                <h4>${data[i].name}</h4>
+        ProjectsList.insertAdjacentHTML('beforeend',`
+            <div class='projects'>
+                <h4>${data[i].title}</h4>
                 <p>${data[i].description}</p>
+                <p>${data[i].technologies.length}</p>
             </div>
         `)
+        
     }
 }
 
 //Obtain Menu and Display
-fetchServices();
+fetchProjects();
 
 
 
