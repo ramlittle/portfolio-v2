@@ -280,3 +280,9 @@ header{
     display:none;
 }
 
+/* FOOTER */
+footer{
+    background-color:khaki;
+    color: black;
+    padding:1rem;
+}
