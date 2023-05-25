@@ -6,7 +6,7 @@
             "name":"ReactJS"
         }
     ],
-     "description": "Created in ReactJS. Amy Little Shop is an affiliate marketing website with a collection of products from shopee and lazada. Feel free to purchase items here.",
+     "description": "Affiliate marketing website with a collection of products from shopee and lazada. Feel free to purchase items here.",
      "imageLink": "https://i.ibb.co/ZxMNB2G/amy-little-shop-gif.gif",
      "link": "https://amy-little-shop.vercel.app/",
      "sourceCode": "https://github.com/ramlittle/amy-little-shop"
@@ -30,7 +30,7 @@
             "name":"API"
         }
     ],
-     "description": "Created in ReactJS, NodeJS, Express, MongoDB and RESTAPI\nThis is a Recipe App where it obtains data from an external API. Users are able to search, view,favorite and unfavorite a Recipe after logging in.",
+     "description": "This is a Recipe App where it obtains data from an external API. Users are able to search, view,favorite and unfavorite a Recipe after logging in.",
      "imageLink": "https://i.ibb.co/BZ2664q/recipemom-image.gif",
      "link": "https://recipemom.onrender.com/",
      "sourceCode": "https://github.com/ramlittle/recipemom-frontend"
@@ -48,7 +48,7 @@
             "name":"JavaScript"
         }
     ],
-     "description": "Created in HTML, CSS and Javascript\nThis is a simple web based game programmed in Javascript. It's let's its players to set coordinates to attack and destroy the eggs planted by chickens",
+     "description": "This is a simple web based game programmed in Javascript. It's let's its players to set coordinates to attack and destroy the eggs planted by chickens",
      "imageLink": "https://i.ibb.co/drn0rCY/eggwrecker-image.gif",
      "link": "https://eggwrecker.vercel.app/",
      "sourceCode": "https://github.com/ramlittle/eggwrecker"
@@ -60,7 +60,7 @@
             "name":"ReactJS"
         }
     ],
-     "description": "Created in React JS\nThis is a contacts management application. Callers will be able to record their contacts and mark them accordingly depending on the contacts insterest",
+     "description": "This is a contacts management application. Callers will be able to record their contacts and mark them accordingly depending on the contacts insterest",
      "imageLink": "https://i.ibb.co/wd69WYL/contactsmaster-image.gif",
      "link": "https://contacts-master-app.vercel.app/",
      "sourceCode": "https://github.com/ramlittle/contacts-master-app"
@@ -84,7 +84,7 @@
             "name":"API"
         }
     ],
-     "description": "Created in React JS, Node, Express and MongoDb\nThis is Free Circumsission Booking web application for men. They can book a schedule at the comfort of their home to avoid falling in line.",
+     "description": "This is Free Circumsission Booking web application for men. They can book a schedule at the comfort of their home to avoid falling in line.",
      "imageLink": "https://i.ibb.co/k65FQkv/circumsession-image.gif",
      "link": "https://circumsession.vercel.app/",
      "sourceCode": "https://github.com/ramlittle/circumsession"
@@ -96,7 +96,7 @@
             "name":"WordPress"
         }
     ],
-     "description": "Created in Wordpress\nThis is a Real Estate School Website. It aims to obtain aspiring realtors to be educated in this institution",
+     "description": "This is a Real Estate School Website. It aims to obtain aspiring realtors to be educated in this institution",
      "imageLink": "https://i.ibb.co/dJpj5gw/coastal-image.gif",
      "link": "https://coastalrealestateacademy.com/"
     },
@@ -107,7 +107,7 @@
             "name":"WordPress"
         }
     ],
-     "description": "Created in Wordpress\nThis is a small Coffee Shop Website in Baguio City. Created for a friend",
+     "description": "This is a small Coffee Shop Website in Baguio City. Created for a friend",
      "imageLink": "https://i.ibb.co/bm8j0Qz/coffehead-image.gif",
      "link": "https://coffeehead-ramelitomartinez.000webhostapp.com//"
     },
@@ -124,7 +124,7 @@
             "name":"JavaScript"
         }
     ],
-     "description": "Created in HTML, CSS and JAVASCRIPT\nThis is a small BPO company website. It currently holds insurance and sales campaigns",
+     "description": "This is a small BPO company website. It currently holds insurance and sales campaigns",
      "imageLink": "https://i.ibb.co/VL67V1m/ntu-image.gif",
      "link": "https://www.ntu-nobletrends.com/",
      "sourceCode": "https://github.com/ramlittle/ntu"
@@ -148,7 +148,7 @@
             "name":"API"
         }
     ],
-     "description": "Created in ReactJS, Node Express and Mongodb\nThis app is used to evaluate mentors or teachers or supervisors. It will generate a calculated copy of all evaluations of a certain mentor",
+     "description": "This app is used to evaluate mentors or teachers or supervisors. It will generate a calculated copy of all evaluations of a certain mentor",
      "imageLink": "https://i.ibb.co/6wFgkjx/evalumentor-image.gif",
      "sourceCode": "https://github.com/ramlittle/evalumentor"
     },
@@ -171,7 +171,7 @@
             "name":"API"
         }
     ],
-     "description": "Created in ReactJS, Node Express, Mongodb\nAbbreviated as Response Emergency System Query. This application was created during the 3-day hackaton and it can help responders track users based on their location so an appropriate responding team will be sent",
+     "description": "Abbreviated as Response Emergency System Query. This application was created during the 3-day hackaton and it can help responders track users based on their location so an appropriate responding team will be sent",
      "imageLink": "https://i.ibb.co/D4r80tp/resq-image.gif",
      "link": "https://resq-ramlittle.vercel.app/",
      "sourceCode": "https://github.com/ramlittle/resq"

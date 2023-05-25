@@ -160,7 +160,8 @@ header{
 
 
 #work-experience-container h2,
-#services-container h2{
+#services-container h2,
+#projects-container h2{
     color:khaki;
     font-size:xxx-large;
     text-align:center;
@@ -169,12 +170,12 @@ header{
 
 /* WORK EXPERIENCE */
 .work-experience-list,
-.services-list,
-.projects-list{
+.services-list{
     display:flex;
     flex-wrap:wrap;
     width:100%;
     justify-content:center;
+    border:1px solid red;
 }
 .jobs{
     margin:1rem;
@@ -207,7 +208,8 @@ header{
 }
 
 /* SERVICES */
-.services{
+.services
+{
     margin:1rem;
     width: calc(100%/5);
     display:flex;
@@ -215,4 +217,27 @@ header{
     align-items:center;
     height:auto;
 }
+
+/* PROJECTS */
+.projects-list{
+    display:flex;
+    border:1px solid red;
+}
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    width: calc(100%/2);
+    border:1px solid blue;
+}
+.project-info{
+    border:1px solid pink
+}
+.project-sample{
+    border:1px solid green;
+}
+.project-sample img{
+    height:10rem;
+    width:10rem;
+}
+
 
