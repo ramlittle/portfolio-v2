@@ -7,7 +7,7 @@ window.addEventListener("scroll", () => {
 })
 
 function animate(item) {
-  if (scrollY > item.offsetTop - window.innerHeight / 2) {
+  if (scrollY > item.offsetTop - window.innerHeight / 1.25) {
     item.classList.add("appear-on-scroll")
   } else {
     item.classList.remove("appear-on-scroll")
