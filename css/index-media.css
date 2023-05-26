@@ -29,7 +29,40 @@
         color:khaki;
     }
 
-    /* INTRODUCTION */
+    /* ABOUT */
+    #about-container div:first-child > p{
+        font-size: medium;
+        text-align:center;
+        margin-bottom: 0.5rem;
+    }
+    .technologies-container > h6{
+        margin-top:0.25rem;
+    }
 
-    
+    /* COMMON SECTION HEADERS */
+    #work-experience-container h2,
+    #services-container h2,
+    #projects-container h2{
+        font-size:xx-large;
+    }
+
+    /* WORK EXPERIENCE */
+
+    .jobs{
+        width: 100%;
+    }
+
+    .jobs h4,
+    .services h4{
+        font-size:large;
+    }
+
+    .jobs h5,
+    .services h4{
+        font-size:large;
+    }
+    .jobs p,
+    .services p{
+        font-size: medium;
+    }
 }
