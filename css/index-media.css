@@ -65,6 +65,7 @@
     .my-intro-container > p:last-of-type{
         font-size:1rem;
         color:khaki;
+        text-align:center;
     }
 
     /* ABOUT */
