@@ -248,7 +248,7 @@ header{
     display:flex;
     flex-direction: column;
     width:40%;
-    jusify-content:center;
+    justify-content:center;
     align-items:center;
     padding: 1rem;
 }

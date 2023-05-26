@@ -1,0 +1,35 @@
+
+
+/* PHONE SIZE */
+@media screen and (max-width:767px){
+
+    /* HERO SECTION */
+    .hero-container{
+        flex-direction:column;
+        justify-content:center;
+    }
+    .my-image-container img{
+        height:10rem;
+    }
+    .my-intro-container{
+        margin-top:3rem;
+    }
+    .my-intro-container > p:first-child{
+        font-size: 1rem;
+        color:khaki;
+        text-align:center;
+    }
+    .my-intro-container > p:nth-child(2){
+        font-size:2rem;
+        font-weight:bold;
+        text-align:center;
+    }
+    .my-intro-container > p:last-of-type{
+        font-size:1rem;
+        color:khaki;
+    }
+
+    /* INTRODUCTION */
+
+    
+}
