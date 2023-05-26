@@ -2,7 +2,45 @@
 
 /* PHONE SIZE */
 @media screen and (max-width:767px){
+    /* MENU */
+    header{
+        width:100%;
+        padding:0.25rem;
+        position:sticky;
+        top:0;
+    }
+    .menu-logo-container{
+        width:90%;
+        justify-content:start;
+    }
+    .menu-logo-container h1,
+    .menu-logo-container a{
+        font-size:large;
+    }
 
+    .menu-list-container{
+        display:none;
+        flex-direction:column;
+        width:90%;
+    }
+    .menu-button{
+        display:inline;
+        width:10%;
+    }
+    .menu-button div{
+        width: 5rem;
+        height:0.25rem;
+        background-color: black;
+        margin: 0.25rem 0rem;
+    }
+    .close-menu-button{
+        width:10%;
+        text-align:center;
+    }
+    .close-menu-button span{
+        font-size: x-large;
+        color:black;
+    }
     /* HERO SECTION */
     .hero-container{
         flex-direction:column;

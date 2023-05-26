@@ -1,6 +1,27 @@
 const MenuList = document.querySelector('.menu-list-container');
 const Header = document.querySelector('header');
+const MenuButton = document.querySelector('.menu-button');
+const CloseMenuButton=document.querySelector('.close-menu-button');
+const MenuLogoContainer=document.querySelector('.menu-logo-container');
+const MenuListContainer=document.querySelector('.menu-list-container');
 const url = '../data/menu.json';
+
+MenuButton.addEventListener('click',()=>{
+    CloseMenuButton.style.display='inline'; 
+    MenuButton.style.display='none';
+    MenuLogoContainer.style.display='none';
+    MenuListContainer.style.display='flex';
+})
+
+CloseMenuButton.addEventListener('click',()=>{
+    CloseMenuButton.style.display='none'; 
+    MenuButton.style.display='inline';
+    MenuLogoContainer.style.display='flex';
+    MenuListContainer.style.display='none';
+})
+
+
+
 
 function fetchMenu(){
     fetch(url)

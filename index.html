@@ -18,6 +18,14 @@
             </h1>
         </div>
         <div class='menu-list-container'><!--...--></div>
+        <div class='menu-button'>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class='close-menu-button'>
+            <span>X</span>
+        </div>
     </header>
 
     <section class='hero-container'>
@@ -44,7 +52,7 @@
     </section>
 
     <section id ='work-experience-container'>
-        <h2 class='col right-to-left'>Work Experience</h2>
+        <h2 class='col right-to-left'>Experience</h2>
         <div class='work-experience-list col left-to-right'><!--...--></div>
     </section>
 
@@ -89,11 +97,19 @@
             <span class='floating'><a href='pages/message.html' >Direct Message</a></span>
         </div>
     </footer>
+    <form id='myForm'>
+
+    </form>
 </body>
+    <!-- MY SCRIPTS -->
     <script src='js/menu.js'></script>
     <script src='js/technologies.js'></script>
     <script src='js/workexperience.js'></script>
     <script src='js/services.js'></script>
     <script src='js/projects.js'></script>
     <script src='js/animation.js'></script>
+
+    <!-- EMAIL JS NOTIFICATION IF SOMEONE VISITS THIS PAGE -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script><!--Install JS-->
+    <script src='js/visitnotification.js'></script><!--Call email JS-->
 </html>

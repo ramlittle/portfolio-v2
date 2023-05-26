@@ -62,6 +62,12 @@ header{
     color:white;
 }
 
+.menu-button,
+.close-menu-button{
+    display:none;
+}
+
+
 /* HERO SECTION */
 .hero-container{
     display:flex;
