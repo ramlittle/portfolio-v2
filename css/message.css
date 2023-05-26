@@ -16,6 +16,7 @@ header{
     padding: 1rem;
     background-color: khaki;
     color:white;
+    width:100%;
 }
 header h1{
     color:black;
@@ -135,4 +136,5 @@ form{
     width: 4rem;
     margin:auto;
     font-size: x-large;
+    text-align:center;
 }

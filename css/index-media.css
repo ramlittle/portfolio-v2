@@ -65,4 +65,36 @@
     .services p{
         font-size: medium;
     }
+
+    /* SERVICES */
+    .services{
+        width: 100%;
+    }
+    
+    /* PROJECTS */
+
+    .projects{
+        flex-direction: column-reverse;
+        margin-bottom:3rem;
+    }
+    .project-info{
+        width: 100%;
+    }
+    .project-info h4{
+        font-size:x-large;
+    }
+    .project-info p{
+        font-size:large;
+    }
+    .project-sample{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+        padding: 1rem;
+    }
+    
+    /* FOOTER */
+    .other-info-container h4{
+        font-size: large;
+    }
 }
