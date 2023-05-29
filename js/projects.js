@@ -31,6 +31,7 @@ function displayProjects(data,divisor){
                 <div id ='set'class ='project-info'>
                     <h4>${data[i].title}</h4>
                     <p>${data[i].description}</p>
+                    <p>${insertTechnologies(data[i].technologies)}</p>
                     <div class='project-links'>
                         <a href='${data[i].link}' target='_blank'>View Page</a>
                         <a href='${data[i].sourceCode}' target='_blank'>View Code</a>
@@ -44,10 +45,11 @@ function displayProjects(data,divisor){
     }
 }
 
-function insertTechnologies(){
-    const ProjectInfo = ProjectsList.querySelectorAll('*')
-    console.log('ProjectInfo count test',ProjectInfo)
-    // still unable to display the technologies list inside project info section
+function insertTechnologies(technologies){
+    const obtainTechnologyNames=technologies.map(technology=>{
+        return `<span>${technology.name}</span>`;
+    })
+    return obtainTechnologyNames;
 }
 
 ShowMoreButton.addEventListener('click',()=>{

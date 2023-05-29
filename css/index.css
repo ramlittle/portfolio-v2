@@ -250,6 +250,9 @@ header{
     font-size:x-large;
     text-align:center;
 }
+.project-info span{
+    border: 0.1rem solid khaki;
+}
 .project-sample{
     display:flex;
     flex-direction: column;
