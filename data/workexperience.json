@@ -16,22 +16,6 @@
      "employmentStatus": "Freelance"
     },
     {
-     "job": "CRM and Dialer Consultant",
-     "company": "Taokymbiz",
-     "description": "Plans, directs, coordinates with IT Team CRM and Dialer Systems such Nextiva, Ring Central. Manages GoDaddy Cpanel email and DNS",
-     "startDate": "August 30, 2020",
-     "endDate": "December 30, 2022",
-     "employmentStatus": "On Call"
-    },
-    {
-     "job": "IT Operations Supervisor",
-     "company": "Noble Trends Unbound, Inc.",
-     "description": "Oversees the IT operations. Leads the work of IT Support. Looks into new projects offered by clients that may help the organization grow. Works closely with other department heads",
-     "startDate": "January 1, 2020",
-     "endDate": "Present",
-     "employmentStatus": "Regular"
-    },
-    {
      "job": "IT Support",
      "company": "Noble Trends Unbound, Inc.",
      "description": "Managed workstations, Linux and Windows Servers. \nUser Account Creation. System Database Administration and\nNetwork Administration.\nManaged Company website and Hostgator Cpanel",
