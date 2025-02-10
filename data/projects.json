@@ -1,5 +1,17 @@
 [
     {
+     "title": "Brolls",
+     "technologies":[
+        {
+            "name":"ReactJS, Firebase"
+        }
+    ],
+     "description": "Point of Sales and Customer Queueing for the food stall, Brolls.",
+     "imageLink": "https://i.ibb.co/PzMqd1Xq/brolls.gif",
+     "link": "https://brolls-portal.vercel.app/",
+     "sourceCode": "https://github.com/rcwell/brolls-portal"
+    },
+    {
      "title": "Amy Little Shop",
      "technologies":[
         {
