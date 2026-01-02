@@ -1,0 +1,12 @@
+@media screen and (max-width:767px) {
+    .activities-container>div>h2 {
+        font-size: large;   
+        text-align:center;     
+    }
+
+    .activities-container>div>img {
+        width: 20rem;
+        height: 15rem;
+        border-radius: 2%;
+    }
+}
