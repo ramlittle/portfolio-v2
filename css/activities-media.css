@@ -1,12 +1,19 @@
 @media screen and (max-width:767px) {
+    .floating-btn{
+        font-size: small;
+        padding:0.5rem;
+    }
     .activities-container>div>h2 {
-        font-size: large;   
+        font-size: medium;   
         text-align:center;     
     }
 
     .activities-container>div>img {
-        width: 20rem;
-        height: 15rem;
+        width: 18rem;
+        height: 12rem;
         border-radius: 2%;
+    }
+    .activities-container > div > p{
+        font-size:small;
     }
 }
