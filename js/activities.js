@@ -20,6 +20,7 @@ function displayRecords(data) {
             <div>
                 <h2>${data[i].title}</h2>
                 <img src='${data[i].image_url}'/>
+                <p>${data[i].date}</p>
                 <p>${data[i].description}</p>
              </div>
         `)

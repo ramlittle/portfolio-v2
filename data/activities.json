@@ -1,17 +1,81 @@
 [
+    
     {
-        "title": "Training",
-        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXeMG3CwYD8kkx83DUR5OEuGysYaZ8NaSRqg&s",
-        "description": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXeMG3CwYD8kkx83DUR5OEuGysYaZ8NaSRqg&s"
+        "title": "Resource Speaker for Integrated Clinic System in Kalinga",
+        "image_url": "https://i.ibb.co/BppYmV8/5bb8d210-bc67-4d66-9fbd-9b45dbe3b02b.jpg",
+        "date": "October 2025",
+        "description": "Thrilled to share my knowledge! 😊 Invited as a resource speaker for the Integrated Clinic System orientation and training for health workers in Kalinga. Excited to help healthcare pros leverage tech for better patient care! 💻🏥 #HealthTech"
     },
     {
-        "title": "Teaching",
-        "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/opb/UODRDCE3KTLWUWUHHRETSAXL7U.jpg",
-        "description": "https://cloudfront-us-east-1.images.arcpublishing.com/opb/UODRDCE3KTLWUWUHHRETSAXL7U.jpg"
+        "title": "Active Directory and Cisco Network Associate Training",
+        "image_url": "https://i.ibb.co/G441ZymS/ce46234d-68b7-4a59-97af-bcaa5f8eb9d1.jpg",
+        "date": "August 2025",
+        "description": "Just wrapped up a 2-week intensive training on Active Directory and Cisco Network Associate - skills boosted! 🤩 Gained hands-on experience with network management and Cisco tech. Ready to apply these in real-world scenarios!"
     },
     {
-        "title": "Modeling",
-        "image_url": "https://i.scdn.co/image/ab67616100005174877d4c061d08c040974224be",
-        "description": "https://i.scdn.co/image/ab67616100005174877d4c061d08c040974224be"
+        "title": "Electronic Medical Record System Training",
+        "image_url": "https://i.ibb.co/KpQgNDxF/ba71cfa6-e1c3-4579-8443-2bdcd89afccf.jpg",
+        "date": "May 2025",
+        "description": "Another Big win!Completed the 3-week Electronic Medical Record system training under KMITS - proud to have participated and gained hands-on experience! 📄💻 Learned the ropes of efficient healthcare tech and contributed to the journey towards digital health records."
+    },
+    {
+        "title": "Career Service Professional",
+        "image_url": "https://i.ibb.co/DDPtWHyr/498582560-10020081121347368-6808142086079046174-n.jpg",
+        "date": "March 2024",
+        "description": "Big win! 🎉 Passed the Career Service Professional Exam, opening doors to government job opportunities. 😊 Eligible for entry-level positions in the public sector now!"
+    },
+    {
+        "title": "Cyber Security Training for End Users",
+        "image_url": "https://i.ibb.co/DPTjWCBf/1ea0dd6d-b1c4-4a9f-a1b6-1f1cd74bb59b.jpg",
+        "date": "December 2023",
+        "description": "Conducted basic cyber security training orientation for end users, empowering them with essential skills to stay safe online. It was great to share knowledge and help build a more secure digital environment."
+    },
+    {
+        "title": "Internship and Frontend Software Engineering Experience",
+        "image_url": "https://i.ibb.co/Kc8kWBRn/e8450a7e-85a2-4d90-9575-58670e528061.jpg",
+        "date": "March to May 2023",
+        "description": "I recently completed a 3-month frontend software engineering internship at DW Morgan, where I applied my MERN skills in a real-world setting - all from the comfort of home! 😎 The company provided the equipment, making it a smooth and productive WFH experience. Gained valuable experience and insights into industry best practices."
+    },
+    {
+        "title": "4-Month MERN Stack Web Development Bootcamp",
+        "image_url": "https://i.ibb.co/cSdLsTQ2/472684413-621273267140493-6586738661646533571-n.jpg",
+        "date": "August to December 2022",
+        "description": "I graduated from the MERN Stack web development bootcamp under DICT and Uplift, where I honed my skills in MongoDB, Express, React, and Node.js. Our instructor, an industry expert, guided us through hands-on projects and real-world scenarios. Grateful for the opportunity to level up my web dev skills!"
+    },
+    {
+        "title": "Client visit at the Call Center",
+        "image_url": "https://i.ibb.co/W4kJRyBF/e614d28d-452d-4cf1-8c1a-5411626e8949.jpg",
+        "date": "December 2021",
+        "description": "Our team at NTU had a productive visit from our American client, Derek, who stopped by the office during the holidays. Despite the festive season, we made sure to give him a warm welcome and showcase our work. It was a great opportunity to build stronger relationships and discuss future collaborations."
+    },
+    {
+        "title": "Being part of the Management Team",
+        "image_url": "https://i.ibb.co/QFXw9TVF/61133318-e72c-45de-b830-7960c19d4672.jpg",
+        "date": "January to Present",
+        "description": "I recently stepped up as Team Leader for the IT Department, joining the management team and taking on new challenges. With a seat at the table, I've been attending key meetings and contributing to strategic decisions. Excited to lead my team towards greater heights!"
+    },
+    {
+        "title": "Network Rack Setup and Cable Management",
+        "image_url": "https://i.ibb.co/9HMbHyvG/ab867e33-999d-4391-81c8-fe0ec8d38665.jpg",
+        "date": "June to July 2020",
+        "description": "Completed a successful cable management and network rack setup project for NTU. The process was smooth and efficient, ensuring optimal network performance and reliability. Proud of the team's hard work and dedication to delivering top-notch results"
+    },
+    {
+        "title": "Line man and Fiber Installment Experience",
+        "image_url": "https://i.ibb.co/jPDXFS00/72790970-e40d-4924-aee2-00defadf9cfc.jpg",
+        "date": "July to December 2018",
+        "description": "As a contractor with Noblecomms, I gained hands-on experience as a line man and fiber installer for various barangays in Baguio under PLDT's project. It was a challenging yet rewarding experience that honed my technical skills and taught me the value of reliable connectivity. Proud to have contributed to expanding PLDT's network in Baguio!"
+    },
+    {
+        "title": "5-day Basic Linux Training",
+        "image_url": "https://i.ibb.co/0VhNcpQm/37ce4ce6-56ed-4a7d-b467-9f0bd6156a37.jpg",
+        "date": "August 2017",
+        "description": "I've had the opportunity to share my knowledge and skills with on-the-job trainees at NTU Training Institute, teaching them the fundamentals of Linux. It was a rewarding experience to see them grasp new concepts and apply them in real-world scenarios. I'm confident that this training will equip them with a solid foundation for their future careers in tech!"
+    },
+    {
+        "title": "Entry Level Certifications",
+        "image_url": "https://i.ibb.co/bRqzBZ8J/received-199866029659251.jpg",
+        "date": "April 2015",
+        "description": "Leveled up! 🎉 Earned my Cisco CCENT and TESDA Computer Hardware Servicing NC 2 certifications after acing the exams. Proud of this achievement and ready for new tech challenges!"
     }
 ]
