@@ -12,6 +12,10 @@ h1{
     padding: 0.25rem;
     font-size: xx-large;
 }
+#clickable-button-container{
+    display:flex;
+    justify-content: center;    
+}
 .clickable-button {
     border: 1px solid khaki;
     color: khaki;
@@ -19,9 +23,9 @@ h1{
     margin-top: 0.25rem;
     font-size: large;
     transition: transform 0.2s;
-    padding: 0.5rem;
-    width: 6rem;
+    padding: 0.5rem; 
     text-decoration: none;
+    text-align:center;
     font-size: x-large;
 }
 
