@@ -47,23 +47,22 @@
         justify-content:center;
     }
     .my-image-container img{
-        height:13rem;
+        height:10rem;
     }
     .my-intro-container{
         margin-top:3rem;
     }
     .my-intro-container > p:first-child{
-        font-size: 2.3rem;        
+        font-size: 1.8rem;        
         color:khaki;
         text-align:center;
     }
     .my-intro-container > p:nth-child(2){
-        font-size:2.5rem;
-        font-weight:bold;
+        font-size:1.5rem;
         text-align:center;
     }
     .my-intro-container > p:last-of-type{
-        font-size:1.5rem;
+        font-size:1.3rem;
         color:khaki;
         text-align:center;
     }
@@ -117,24 +116,24 @@
         margin-bottom:3rem;
     }
     .project-info{
-        width: 100%;
+        width: 90%;
+        margin-right:auto;
+        margin-left:auto;
     }
     .project-info h4{
         font-size:x-large;
     }
     .project-info p{
-        font-size:large;
+        font-size:medium;
     }
     .project-sample{
-        width:100%;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
         justify-content:center;
         align-items:center;
-        padding: 1rem;
-    }
-    .project-sample img{
-        width: 23rem;
-        padding: 0;
-    }
+        padding: 0.5rem;        
+    }    
     
     /* FOOTER */
     .other-info-container h4{
