@@ -1,22 +1,33 @@
-*{
-    padding:0;
-    margin:0;
-    color:white;
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
 }
-.clickable-button{
-    border:1px solid khaki;
+body{
+    background-color:black;
+}
+h1{
+    color:khaki;
+    text-align:center;
+    padding: 0.25rem;
+    font-size: xx-large;
+}
+.clickable-button {
+    border: 1px solid khaki;
     color: khaki;
     border-radius: 0.25rem;
     margin-top: 0.25rem;
-    font-size: large; 
+    font-size: large;
     transition: transform 0.2s;
     padding: 0.5rem;
     width: 6rem;
     text-decoration: none;
     font-size: x-large;
 }
-.clickable-button:hover{
+
+.clickable-button:hover {
     transform: translate(0px, -5px);
     background-color: khaki;
     color: black;
 }
+

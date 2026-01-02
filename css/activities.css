@@ -1,0 +1,29 @@
+/* ACTIVITIES */
+.activities-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.activities-container > div{
+    margin-top:2.5rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.activities-container > div > h2{
+    color:khaki;
+}
+.activities-container > div > img{
+    width: 30rem;
+    height:25rem;
+    border-radius:2%;
+}
+.activities-container > div > p{
+    color:khaki;
+    font-style:italic;
+    font-size: x-large;
+    margin-left:auto;
+    margin-right:auto;
+    width: 75%;
+    text-align:center;    
+}
