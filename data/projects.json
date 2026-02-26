@@ -1,5 +1,38 @@
 [
     {
+     "title": "Automated Calendar Scheduling",
+     "technologies":[
+        {
+            "name":"HTML"
+        },
+        {
+            "name":"CSS"
+        },
+        {
+            "name":"Javascript"
+        },
+        {
+            "name":"PHP"
+        },
+        {
+            "name":"MySql"
+        },
+        {
+            "name":"Make.com"
+        },
+        {
+            "name":"Webhooks"
+        },
+        {
+            "name":"Google Calendar"
+        }
+    ],
+     "description": "With the use of Custom Web Application, webhooks and Make, this project is a module that focuses on automating the scheduling of a meeting in Google Calendar including a Google Meet Link",
+     "imageLink": "https://i.ibb.co/kV9V9RFw/Automation-of-Google-Calendar-Scheduling-using-webhooks.gif",
+     "link": "https://docs.google.com/document/d/1rWrnQb7uHR2LfJ3QOj3Dfus7KcUjb9rhdxXcHx_f8Kc/edit?usp=sharing",
+     "sourceCode": "https://docs.google.com/document/d/1rWrnQb7uHR2LfJ3QOj3Dfus7KcUjb9rhdxXcHx_f8Kc/edit?usp=sharing"
+    },
+    {
      "title": "Medical Facility",
      "technologies":[
         {

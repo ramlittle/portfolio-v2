@@ -22,5 +22,13 @@
     {
         "name":"Photo and Video Editing",
         "description":"If you have raw photos or videos for marketing, I can help in editing and posting!"
+    },
+    {
+        "name":"AI Automation",
+        "description":"If you have repetitive tasks that you would like to be automated, I can help with the use of automation tools such as Make and Zapier"
+    },
+    {
+        "name":"Go High Level Administration",
+        "description":"If you are subscribed to this all-in-one sales and marketing platform, I can do the following: CRM management, Website, Funnel and Form Building and Automation to streamline workflows"
     }
 ]
