@@ -1,10 +1,9 @@
 //Sub Routines
 function obtainRecords(searchQuery) {
-    fetch('./data/landing_pages.json')
+    fetch('/pages/clients/rog/data/landing_pages.json')
         .then(res => res.json())
         .then(data => {
-            const filteredData = data.filter(obj => obj.title.toLowerCase().includes(searchQuery.toLowerCase()));
-            console.log('filtered result :: ', filteredData);
+            const filteredData = data.filter(obj => obj.title.toLowerCase().includes(searchQuery.toLowerCase()));            
             displayRecords(filteredData);
         })
 }
@@ -14,7 +13,7 @@ function displayRecords(data) {
     landingPagesContainer.innerHTML = '';
     if (!data.length) {
         return landingPagesContainer.insertAdjacentHTML('beforeend', `
-            <div>
+            <div style="width:100%;">
                 <span>No Record Found</span>
             </div
         `)
@@ -34,8 +33,7 @@ function displayRecords(data) {
     }
 }
 
-function searchRecord(searchQuery) {
-    console.log('search query ', searchQuery);
+function searchRecord(searchQuery) {    
     obtainRecords(searchQuery);
 }
 
