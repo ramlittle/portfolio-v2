@@ -10,6 +10,7 @@ function obtainRecords(searchQuery) {
 
 function displayRecords(data) {
     const heroSection = document.querySelector('#hero-section');
+    const heroSectionElements = heroSection.children;
     const recordCountSpan = document.querySelector('.record-count-span')
     const landingPagesContainer = document.querySelector('#landing-pages-container');
     const count = data.length;    
@@ -40,10 +41,14 @@ function displayRecords(data) {
     //display record count
     if(recordCountSpan){
         recordCountSpan.remove();
-    }else{
-        heroSection.insertAdjacentHTML('beforeend', `
-        <span class="record-count-span" style="color:white;">Showing ${count} records</span>`);
     }
+    //insert the record counter after input search element
+        heroSectionElements[3].insertAdjacentHTML('beforebegin', `
+            <span class="record-count-span"
+                style="color:white;font-size: small;padding:5px;">
+                Showing ${count} record(s)
+            </span>
+            `);
     
 }
 
