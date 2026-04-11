@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activities</title>
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/tZR53gg/portfolioicon.jpg">
-    <link rel='stylesheet' type='text/css' href='../css/common.css'/>
-    <link rel='stylesheet' type='text/css' href='../css/activities.css'/>
-    <link rel='stylesheet' type='text/css' href='../css/common-media.css'/>
-    <link rel='stylesheet' type='text/css' href='../css/activities-media.css'/>
+    <link rel='stylesheet' type='text/css' href='../css/common.css' />
+    <link rel='stylesheet' type='text/css' href='../css/activities.css' />
+    <link rel='stylesheet' type='text/css' href='../css/common-media.css' />
+    <link rel='stylesheet' type='text/css' href='../css/activities-media.css' />
 </head>
+
 <body>
     <header>
-      <h1>Activities</h1>
+        <img src="https://i.ibb.co/tZR53gg/portfolioicon.jpg" alt="portfolioicon" />
     </header>
-    <a href="../index.html" class="floating-btn">Back</a>
-    <section class="activities-container">
-        <!-- data loop here -->
+    <section id='hero-section'>
+        <h1>Activites</h1>
+        <h2>Below are the highlights of my journey</h2>
+        <input type='text' placeholder='search title...' oninput="searchRecord(this.value)" />
+        <div id='records-container'><!--...--></div>
     </section>
+    <!-- <a href="../index.html" class="floating-btn">Back</a> -->
+    <!-- Modal container -->
+    <div id="modal-container"></div>
 </body>
+
 </html>
 <script type='text/javascript' src='../js/activities.js'></script>
