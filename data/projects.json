@@ -1,5 +1,17 @@
 [
     {
+     "title": "Project Milestone Tracker",
+     "technologies":[
+        {
+            "name":"VueJS, Laravel"
+        }
+    ],
+     "description": "This custom made application is able to see the progress of a Project based on the System Development Life Cycle",
+     "imageLink": "https://i.ibb.co/zT9v3RJ6/Untitled-design.gif",
+     "link": "https://youtube.com/shorts/SgJGPbhWf_8?si=L_pBqwGwMADDWb1T",
+     "sourceCode": "https://youtube.com/shorts/SgJGPbhWf_8?si=L_pBqwGwMADDWb1T"
+    },
+    {
      "title": "Go High Level CRM, Funnel, Landing Page and Workflow Automation Demo",
      "technologies":[
         {
