@@ -1,5 +1,17 @@
 [
     {
+     "title": "Monthly Activity Report Generator",
+     "technologies":[
+        {
+            "name":"VueJS, Laravel"
+        }
+    ],
+     "description": "This feature module allows users to create their own Monthly Activity Report. Create a template and is automatically generated to the report created",
+     "imageLink": "https://i.ibb.co/GhfNFCP/PMT.gif",
+     "link": "https://youtube.com/shorts/SgJGPbhWf_8?si=L_pBqwGwMADDWb1T",
+     "sourceCode": "https://youtube.com/shorts/SgJGPbhWf_8?si=L_pBqwGwMADDWb1T"
+    },
+    {
      "title": "Project Milestone Tracker",
      "technologies":[
         {
